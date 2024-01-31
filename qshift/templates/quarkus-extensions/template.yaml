@@ -79,7 +79,7 @@ spec:
             - '21'
             - '17'
           enumNames:
-            - Java 11
+            - Java 21
             - Java 17
         buildTool:
           title: Build Tool
