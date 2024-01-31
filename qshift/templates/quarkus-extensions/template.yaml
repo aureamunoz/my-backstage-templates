@@ -74,9 +74,9 @@ spec:
           title: Java Version
           type: string
           description: Java version
-          default: '11'
+          default: '17'
           enum:
-            - '11'
+            - '21'
             - '17'
           enumNames:
             - Java 11
@@ -111,10 +111,11 @@ spec:
               title: Repo Org Owner
               type: string
               description: Your SCM organization/group
-              default: ch007m
+              default: aureamunoz
               enum:
                 - ch007m
                 - iocanel
+                - aureamunoz
 
     - title: Customize the Quarkus application features
       required:
@@ -128,6 +129,7 @@ spec:
           default: none
           enum:
             - none
+            - quarkus-jdbc-h2
             - quarkus-jdbc-db2
             - quarkus-jdbc-mariadb
             - quarkus-jdbc-mssql
@@ -136,6 +138,7 @@ spec:
             - quarkus-jdbc-postgresql
           enumNames:
             - 'None'
+            - 'H2'
             - 'DB2'
             - 'Maria DB'
             - 'MS SQL'
