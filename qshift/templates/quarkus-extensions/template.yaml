@@ -35,6 +35,7 @@ spec:
               kind:
                 - Group
                 - User
+          default: "Default value"
         starterCode:
           title: Generate for the project some code to start (aka "starting" code)
           type: boolean
